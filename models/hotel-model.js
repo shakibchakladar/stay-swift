@@ -61,7 +61,7 @@ const hotelSchema = new Schema({
   },
   locationDescription: {
     required: false,
-    type: Sring,
+    type: String,
   },
   postalCode: {
     required: false,
