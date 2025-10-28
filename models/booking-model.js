@@ -14,5 +14,5 @@ const bookingSchema = new Schema({
     type: String,
   },
 });
-export const bookindModel =
+export const bookingModel =
   mongoose.models.booking || mongoose.model("booking", bookingSchema);
