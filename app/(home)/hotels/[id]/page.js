@@ -6,9 +6,9 @@ import React from "react";
 function HotelDetailsPage() {
   return (
     <>
-      <Summary />
-      <Gallery />
-      <Overview />
+      <Summary hotelId={id} />
+      <Gallery hotelId={id} />
+      <Overview hotelId={id} />
     </>
   );
 }

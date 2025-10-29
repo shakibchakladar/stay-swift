@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
-import "./globals.css";
+// import "./globals.css";
+import "././../globals.css"
 import Navbar from "@/components/Navbar";
 import { dbConnect } from "@/service/mongo";
 
@@ -26,7 +27,7 @@ export default async function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar />
+        <Navbar sideNav={false} />
         <main>{children}</main>
       </body>
     </html>
