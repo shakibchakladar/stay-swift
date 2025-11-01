@@ -28,7 +28,6 @@ import Image from "next/image";
 import img1 from "@/public/assets/images/1.jpg";
 import img2 from "@/public/assets/images/2.jpg";
 import img3 from "@/public/assets/images/3.jpg";
-import img4 from "@/public/assets/images/4.jpg";
 
 const Gallery = () => {
   return (
@@ -55,7 +54,7 @@ const Gallery = () => {
             <Image src={img4} alt="Gallery 4" fill className="object-cover rounded-lg" />
           </div>
           <div className="relative w-full h-full">
-            <Image src={img4} alt="Gallery 5" fill className="object-cover rounded-lg" />
+            <Image src={img2} alt="Gallery 5" fill className="object-cover rounded-lg" />
           </div>
         </div>
       </div>
