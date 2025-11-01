@@ -22,7 +22,6 @@
 //     </section>
 //   );
 // };
-
 // export default Gallery;
 import Image from "next/image";
 import img1 from "@/public/assets/images/1.jpg";
