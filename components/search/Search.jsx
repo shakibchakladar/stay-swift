@@ -8,10 +8,10 @@ const Search = ({fromList}) => {
             <h4 className="mt-2">
               <select name="destination" id="destination">
                 <option value="Bali">Bali</option>
-                <option value="Bali">Cox's Bazar</option>
-                <option value="Bali">Sylhet</option>
-                <option value="Bali">Saint Martin</option>
-                <option value="Bali">Bali</option>
+                <option value="coxs">Coxs Bazar</option>
+                <option value="sylhet">Sylhet</option>
+                <option value="sain">Saint Martin</option>
+                <option value="bali">Bali</option>
               </select>
             </h4>
           </div>
