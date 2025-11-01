@@ -51,7 +51,7 @@ const Gallery = () => {
             <Image src={img3} alt="Gallery 3" fill className="object-cover rounded-lg" />
           </div>
           <div className="relative w-full h-full">
-            <Image src={img4} alt="Gallery 4" fill className="object-cover rounded-lg" />
+            <Image src={img3} alt="Gallery 4" fill className="object-cover rounded-lg" />
           </div>
           <div className="relative w-full h-full">
             <Image src={img2} alt="Gallery 5" fill className="object-cover rounded-lg" />
