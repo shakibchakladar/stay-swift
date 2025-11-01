@@ -1,5 +1,4 @@
 import localFont from "next/font/local";
-// import "./globals.css";
 import "././../globals.css"
 import Navbar from "@/components/Navbar";
 import { dbConnect } from "@/service/mongo";

@@ -1,7 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
+import { auth } from "@/auth";
+import { logOut } from "@/actions";
 
-const Navbar = ({ sideNav }) => {
+const Navbar = async ({ sideNav }) => {
+  const authenticUser = await auth();
+  const user = authenticUser?.user;
+
   return (
     <nav>
       <Link href="/">
@@ -28,9 +33,15 @@ const Navbar = ({ sideNav }) => {
             <Link href="/bookings">Bookings</Link>
           </li>
           <li>
-            <Link href="/login" className="login">
-              Login
-            </Link>
+            {user ? (
+              <form action={logOut} className="login">
+               <button> logout</button>
+              </form>
+            ) : (
+              <Link href="/login" className="login">
+                Login
+              </Link>
+            )}
           </li>
         </ul>
       )}
