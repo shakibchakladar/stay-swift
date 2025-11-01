@@ -25,11 +25,10 @@
 
 // export default Gallery;
 import Image from "next/image";
-import img1 from "@/public/fb.png";
-import img2 from "@/public/assets/images/2.png";
-import img3 from "@/public/assets/images/3.png";
-import img4 from "@/public/assets/images/4.png";
-import img5 from "@/public/assets/images/5.png";
+import img1 from "@/public/assets/images/1.jpg";
+import img2 from "@/public/assets/images/2.jpg";
+import img3 from "@/public/assets/images/3.jpg";
+import img4 from "@/public/assets/images/4.jpg";
 
 const Gallery = () => {
   return (
@@ -56,7 +55,7 @@ const Gallery = () => {
             <Image src={img4} alt="Gallery 4" fill className="object-cover rounded-lg" />
           </div>
           <div className="relative w-full h-full">
-            <Image src={img5} alt="Gallery 5" fill className="object-cover rounded-lg" />
+            <Image src={img4} alt="Gallery 5" fill className="object-cover rounded-lg" />
           </div>
         </div>
       </div>
