@@ -19,5 +19,4 @@ function LogInOutBtn({user}) {
     </li>
   );
 }
-
 export default LogInOutBtn;
