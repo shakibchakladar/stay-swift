@@ -7,6 +7,7 @@ import LogInOutBtn from "./LogInOutBtn";
 const Navbar = async ({ sideNav }) => {
   const authenticUser = await auth();
   const user = authenticUser?.user;
+  console.log(user)
 
   return (
     <nav>
