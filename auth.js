@@ -5,6 +5,7 @@ import Credentials from "next-auth/providers/credentials";
 import { userModel } from "./models/user-model";
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
+  
   providers: [
     Credentials({
       credentials: {
