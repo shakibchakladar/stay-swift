@@ -15,7 +15,7 @@ const LoginForm = () => {
       if (!!response.error) {
         setError(response.error.message);
       } else {
-        router.push("/");
+        router.push("/booking");
       }
     } catch (err) {
       setError(err.message);
