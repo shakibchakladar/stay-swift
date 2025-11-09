@@ -14,7 +14,6 @@ const ProfileInfo = async () => {
           user.name.charAt(0).toUpperCase()
         )}
       </div>
-
       <div>
         <h3 className="text-2xl font-semibold lg:text-[28px]">{user?.name}</h3>
         <p className="leading-[231%] lg:text-lg">{user?.email}</p>
